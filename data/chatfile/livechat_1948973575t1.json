@@ -1,0 +1,22 @@
+[
+  {
+    "sender": "Customer",
+    "timestamp": "2025-07-13",
+    "message": "test"
+  },
+  {
+    "sender": "Customer",
+    "timestamp": "2025-07-13",
+    "message": "Hello"
+  },
+  {
+    "sender": "Customer",
+    "timestamp": "2025-07-13",
+    "message": "helollodsldslds"
+  },
+  {
+    "sender": "Customer",
+    "timestamp": "2025-07-13",
+    "message": "❌ No reservation found under name: d"
+  }
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.restaurantcustomerservice.controller.ChatController">
+    <center>
+        <ListView fx:id="chatList" prefHeight="300"/>
+    </center>
+    <bottom>
+        <HBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <TextField fx:id="inputField" HBox.hgrow="ALWAYS" promptText="Type your message..."/>
+            <Button text="Send" onAction="#handleSend"/>
+        </HBox>
+    </bottom>
+</BorderPane>

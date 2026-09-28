@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurantcustomerservice.controller.LiveChatViewController">
+   <children>
+      <ScrollPane fx:id="chatScrollPane" layoutX="15.0" layoutY="117.0" prefHeight="304.0" prefWidth="569.0">
+         <content>
+            <VBox fx:id="chatArea" prefHeight="287.0" prefWidth="551.0" />
+         </content>
+      </ScrollPane>
+      <Pane layoutX="14.0" layoutY="317.0" prefHeight="117.0" prefWidth="569.0" />
+      <Button fx:id="chatBtn" layoutX="502.0" layoutY="457.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="84.0" text="Send">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="chatInput" layoutX="17.0" layoutY="439.0" prefHeight="78.0" prefWidth="472.0" />
+      <Label layoutX="17.0" layoutY="44.0" text="Your Role: ">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="liveChatRoleTF" editable="false" layoutX="126.0" layoutY="32.0" prefHeight="25.0" prefWidth="269.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </TextField>
+      <Button layoutX="480.0" layoutY="38.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="43.0" prefWidth="84.0" text="Back">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

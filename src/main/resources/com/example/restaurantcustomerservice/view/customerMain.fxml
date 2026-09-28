@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="603.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurantcustomerservice.controller.CustomerMainController">
+   <children>
+      <VBox alignment="CENTER" layoutY="-1.0" prefHeight="102.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="71.0" prefWidth="600.0" text="Welcome " textAlignment="CENTER">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Separator prefWidth="200.0" />
+         </children>
+      </VBox>
+      <Pane layoutX="15.0" layoutY="86.0" prefHeight="453.0" prefWidth="573.0">
+         <children>
+            <Button layoutX="218.0" layoutY="166.0" mnemonicParsing="false" onAction="#switchToMyTicket" prefHeight="38.0" prefWidth="137.0" text="My Ticket ">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="218.0" layoutY="236.0" mnemonicParsing="false" onAction="#switchToChatBot" prefHeight="38.0" prefWidth="137.0" text="ChatBot">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="218.0" layoutY="103.0" mnemonicParsing="false" onAction="#switchToReservation" prefHeight="38.0" prefWidth="137.0" text="Reservation">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="218.0" layoutY="31.0" mnemonicParsing="false" onAction="#switchToDashboard" prefHeight="38.0" prefWidth="137.0" text="Dashboard">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="218.0" layoutY="377.0" mnemonicParsing="false" onAction="#switchToFAQ" prefHeight="38.0" prefWidth="137.0" text="FAQ">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="218.0" layoutY="305.0" mnemonicParsing="false" onAction="#switchToViewMenu" prefHeight="38.0" prefWidth="137.0" text="View Menu">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="485.0" layoutY="8.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="26.0" prefWidth="88.0" text="Logout">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

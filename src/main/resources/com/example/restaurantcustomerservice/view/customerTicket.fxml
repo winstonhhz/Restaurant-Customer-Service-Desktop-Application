@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="603.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurantcustomerservice.controller.CustomerTicketController">
+   <children>
+      <VBox alignment="CENTER" layoutY="-1.0" prefHeight="102.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="71.0" prefWidth="600.0" text="My Ticket" textAlignment="CENTER">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Separator prefWidth="200.0" />
+         </children>
+      </VBox>
+      <TableView fx:id="customerMyTicketTable" layoutX="15.0" layoutY="105.0" prefHeight="217.0" prefWidth="573.0">
+        <columns>
+          <TableColumn fx:id="myTicTicketIdCol" prefWidth="75.0" text="Ticket ID" />
+          <TableColumn fx:id="myTicTitleCol" prefWidth="323.99999237060547" text="Title" />
+            <TableColumn fx:id="myTicStatusCol" minWidth="0.0" prefWidth="88.66668701171875" text="Status" />
+            <TableColumn fx:id="myTicChatCol" prefWidth="84.00009155273438" text="Chat" />
+        </columns>
+      </TableView>
+      <Pane layoutX="13.0" layoutY="334.0" prefHeight="164.0" prefWidth="573.0">
+         <children>
+            <Button layoutX="65.0" layoutY="82.0" mnemonicParsing="false" onAction="#customerBackBtn" prefHeight="25.0" prefWidth="89.0" text="Back" />
+            <Button layoutX="434.0" layoutY="106.0" mnemonicParsing="false" onAction="#customerRefreshBtn" prefHeight="25.0" prefWidth="89.0" text="Refresh" />
+            <Button layoutX="434.0" layoutY="58.0" mnemonicParsing="false" onAction="#customerNewTicketBtn" prefHeight="25.0" prefWidth="89.0" text="New Ticket" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.restaurantcustomerservice.controller.AdminDashboardController">
+    <children>
+        <Label layoutX="20" layoutY="20" style="-fx-font-size: 20px;" text="Admin Dashboard" />
+
+        <!-- User Table -->
+        <TableView fx:id="userTable" layoutX="20" layoutY="60" prefHeight="300" prefWidth="600">
+            <columns>
+                <TableColumn fx:id="colId" prefWidth="50" text="ID" />
+                <TableColumn fx:id="colUsername" prefWidth="150" text="Username" />
+                <TableColumn fx:id="colPassword" prefWidth="150" text="Password" />
+                <TableColumn fx:id="colQuestion" prefWidth="125" text="Question" />
+                <TableColumn fx:id="colAnswer" prefWidth="125" text="Answer" />
+            </columns>
+        </TableView>
+
+        <!-- Form Inputs -->
+        <Label layoutX="650" layoutY="60" text="Username:" />
+        <TextField fx:id="usernameField" layoutX="730" layoutY="55" />
+
+        <Label layoutX="650" layoutY="100" text="Password:" />
+        <TextField fx:id="passwordField" layoutX="730" layoutY="95" />
+
+        <Label layoutX="650" layoutY="140" text="Question:" />
+        <ComboBox fx:id="questionField" layoutX="730" layoutY="135" prefWidth="150" />
+
+        <Label layoutX="650" layoutY="180" text="Answer:" />
+        <TextField fx:id="answerField" layoutX="730" layoutY="175" />
+
+        <!-- Buttons -->
+        <Button layoutX="650" layoutY="230" onAction="#handleAddUser" text="Add User" />
+        <Button layoutX="740" layoutY="230" onAction="#handleEditUser" text="Edit User" />
+        <Button layoutX="830" layoutY="230" onAction="#handleDeleteUser" text="Delete User" />
+        <Button layoutX="650" layoutY="280" onAction="#handleLogout" prefHeight="25.0" prefWidth="63.0" text="Logout" />
+      <Button layoutX="739.0" layoutY="280.0" onAction="#handleBack" prefHeight="25.0" prefWidth="63.0" text="Back" />
+    </children>
+</AnchorPane>

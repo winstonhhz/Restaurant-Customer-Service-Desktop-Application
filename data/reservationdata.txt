@@ -1,0 +1,7 @@
+Test,John Smith,john@example.com,0123456789,2025-07-15,18:00,4,R001,Waiting to be Seated
+k002,Alice Tan,alice@example.com,0192837465,2025-07-16,19:00,2,h,Waiting to be Seated
+food,Dummy Name,email@example.com,0123456789,2025-08-01,12:00,2,k002,Ready to be Seated
+14cfb,Dummy Name,email@example.com,0123456789,2025-08-01,12:00,2,None,Waiting to be Seated
+4b181,hh,hh,hh,h,h,4,2,Waiting to be Seated
+2db51,Guava,guava@gmail.com,012345678,2025-09-08,15:00,1,-,Ready to be Seated
+a2f04,Z,Z@gmail.com,012345678,2025-08-07,13:00,5,-,Waiting to be Seated

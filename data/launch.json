@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ChatApp",
+            "request": "launch",
+            "mainClass": "chat.ChatApp",
+            "projectName": "Chatbot_6ae2632f"
+        }
+    ]
+}

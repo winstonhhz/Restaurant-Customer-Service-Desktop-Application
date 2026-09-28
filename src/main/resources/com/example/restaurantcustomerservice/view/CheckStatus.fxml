@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.restaurantcustomerservice.controller.CheckStatusController" prefWidth="600" prefHeight="400">
+    <children>
+        <VBox layoutX="100" layoutY="60" spacing="20" alignment="CENTER">
+            <Label text="🔎 Check Your Reservation Status" style="-fx-font-size: 20px;" />
+            
+            <HBox spacing="10">
+                <Label text="Your Name:" />
+                <TextField fx:id="nameField" prefWidth="200" />
+            </HBox>
+            
+            <Button text="Check Status" onAction="#handleCheckStatus" />
+            
+            <TextArea fx:id="resultArea" prefRowCount="5" editable="false" wrapText="true" prefWidth="400"/>
+            
+            <Button text="Back to Menu" onAction="#handleBack" />
+        </VBox>
+    </children>
+</AnchorPane>
+

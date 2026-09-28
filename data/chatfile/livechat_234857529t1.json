@@ -1,0 +1,32 @@
+[
+  {
+    "sender": "Customer",
+    "timestamp": "2025-07-12",
+    "message": "t"
+  },
+  {
+    "sender": "Customer",
+    "timestamp": "2025-07-12",
+    "message": "Hi there"
+  },
+  {
+    "sender": "Staff",
+    "timestamp": "2025-07-12",
+    "message": "Hi there"
+  },
+  {
+    "sender": "Customer",
+    "timestamp": "2025-07-12",
+    "message": "How r u"
+  },
+  {
+    "sender": "Staff",
+    "timestamp": "2025-07-12",
+    "message": "i\u0027m fine"
+  },
+  {
+    "sender": "Staff",
+    "timestamp": "2025-07-12",
+    "message": "Issue solved"
+  }
+]

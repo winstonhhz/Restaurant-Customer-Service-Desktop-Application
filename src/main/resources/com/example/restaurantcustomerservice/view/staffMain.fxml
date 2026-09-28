@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurantcustomerservice.controller.StaffMainController">
+   <children>
+      <Label alignment="CENTER" prefHeight="71.0" prefWidth="600.0" text="Staff Main" textAlignment="CENTER">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Button layoutX="160.0" layoutY="174.0" mnemonicParsing="false" onAction="#manageReservationBtn" prefHeight="51.0" prefWidth="280.0" text="Manage Reservation">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="160.0" layoutY="287.0" mnemonicParsing="false" onAction="#manageTicketBtn" prefHeight="51.0" prefWidth="280.0" text="Manage Ticket">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="226.0" layoutY="436.0" mnemonicParsing="false" onAction="#staffLogoutBtn" prefHeight="51.0" prefWidth="147.0" text="Logout">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+[
+  {
+    "sender": "Customer",
+    "timestamp": "2025-07-12",
+    "message": "Hi"
+  },
+  {
+    "sender": "Staff",
+    "timestamp": "2026-09-28",
+    "message": "yo"
+  },
+  {
+    "sender": "Staff",
+    "timestamp": "2026-09-28",
+    "message": "."
+  }
+]
